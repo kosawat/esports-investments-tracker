@@ -2,8 +2,12 @@
   "name": "esports-investment-tracker",
   "version": "1.0.0",
   "description": "Database for investments in Esports industry",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/kosawat/esports-investment-tracker/issues"
   },
-  "homepage": "https://github.com/kosawat/esports-investment-tracker#readme"
+  "homepage": "https://github.com/kosawat/esports-investment-tracker#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
 }
