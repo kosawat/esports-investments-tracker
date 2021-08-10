@@ -1,0 +1,156 @@
+[
+    {
+      "date": "2018-12-31",
+      "investmenttype": "venture",
+      "sectors": ["Esports"],
+      "investors": ["Hudson Bay Capital Management"],
+      "investee": "Simplicity Esports and Gaming"
+    },
+    {
+      "date": "2018-12-21",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["SMAAASH Entertainment"],
+      "investee": "Simplicity Esports and Gaming"
+    },
+    {
+      "date": "2018-12-19",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports", "Streaming"],
+      "investors": ["Popdog"],
+      "investee": "Loaded"
+    },
+    {
+      "date": "2018-12-11",
+      "investmenttype": "venture",
+      "sectors": ["Esports"],
+      "investors": ["-"],
+      "investee": "Pittsburgh Knights"
+    },
+    {
+      "date": "2018-11-21",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["Overactive Media Group"],
+      "investee": "MAD Lions E.C."
+    },
+    {
+      "date": "2018-11-21",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["Overactive Media Group"],
+      "investee": "Splyce"
+    },
+    {
+      "date": "2018-11-07",
+      "investmenttype": "ico",
+      "sectors": ["Esports"],
+      "investors": ["-"],
+      "investee": "eSports GSA GmbH (esports.com)"
+    },
+    {
+      "date": "2018-11-06",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports", "Analytics"],
+      "investors": ["Discord"],
+      "investee": "Blitz Esports"
+    },
+    {
+      "date": "2018-10-25",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["Leaders Group"],
+      "investee": "Esports Business Solutions"
+    },
+    {
+      "date": "2018-09-15",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["Guinevere Capital"],
+      "investee": "Excel Esports"
+    },
+    {
+      "date": "2019-08-09",
+      "investmenttype": "acquisition",
+      "sectors": ["Betting", "Esports"],
+      "investors": ["Allied Esports Entertainment"],
+      "investee": "WPT Enterprises"
+    },
+    {
+      "date": "2018-09-05",
+      "investmenttype": "corporate",
+      "sectors": ["Esports", "Streaming"],
+      "investors": ["Andreessen Horowitz", "21st Century Fox", "Greylock Partners"],
+      "investee": "Caffeine"
+    },
+    {
+      "date": "2018-07-24",
+      "investmenttype": "venture",
+      "sectors": ["Esports"],
+      "investors": ["Meg Whitman"],
+      "investee": "Immortals"
+    },
+    {
+      "date": "2018-07-18",
+      "investmenttype": "angel",
+      "sectors": ["Esports"],
+      "investors": ["Preston Arsement"],
+      "investee": "Team Envy"
+    },
+    {
+      "date": "2018-06-29",
+      "investmenttype": "angel",
+      "sectors": ["Esports"],
+      "investors": ["Jacob Rabon"],
+      "investee": "Panda Global"
+    },
+    {
+      "date": "2018-06-27",
+      "investmenttype": "venture",
+      "sectors": ["Esports"],
+      "investors": ["Comcast Spectacor"],
+      "investee": "Nerd Street Gamers"
+    },
+    {
+      "date": "2018-06-27",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["United Talent Agency"],
+      "investee": "Press X"
+    },
+    {
+      "date": "2018-06-23",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["Immortals"],
+      "investee": "Made in Brazil"
+    },
+    {
+      "date": "2018-06-05",
+      "investmenttype": "pre_ico",
+      "sectors": ["Esports"],
+      "investors": ["Binance"],
+      "investee": "ChiliZ"
+    },
+    {
+      "date": "2018-05-25",
+      "investmenttype": "acquisition",
+      "sectors": ["Esports"],
+      "investors": ["Logitech"],
+      "investee": "Beyond Entertainment"
+    },
+    {
+      "date": "2018-05-25",
+      "investmenttype": "seed",
+      "sectors": ["Esports"],
+      "investors": ["ReKTGlobal"],
+      "investee": "OverPowered Network"
+    },
+    {
+      "date": "2021-03-18",
+      "investmenttype": "acquisition",
+      "sectors": ["Gamestech", "Peripherals", "Console", "Esports"],
+      "investors": ["Sony Interactive Entertainment"],
+      "investee": "Evolution Championship Series (EVO)"
+    }
+   ]

@@ -14,15 +14,10 @@ connectDB();
 app.use(express.json({ extended: false }));
 app.use(logger('dev'));
 
-// Define Routes
-app.get('/api/investments', (req, res) => {
-  res.status(200).json({
-    id: 12345,
-    investor: 'Investor',
-    investee: 'Investee',
-    amount: 50,
-  });
-});
+// API
+// Example
+app.get('/', (req, res) => res.status(200).json({ message: 'API Running' }));
+app.use('/api', require('./routes/investments'));
 
 // Serve static assets in production
 if (

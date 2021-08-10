@@ -9,7 +9,7 @@ const InvestmentSchema = new Schema(
     investmenttype: {
       type: String,
     },
-    sector: [{ type: String }],
+    sectors: [{ type: String }],
     amount: {
       type: Number,
     },
@@ -17,7 +17,7 @@ const InvestmentSchema = new Schema(
       type: String,
       required: true,
     },
-    investor: [
+    investors: [
       {
         type: String,
         require: true,
