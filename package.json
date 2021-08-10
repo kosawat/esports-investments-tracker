@@ -1,0 +1,20 @@
+{
+  "name": "esports-investment-tracker",
+  "version": "1.0.0",
+  "description": "Database for investments in Esports industry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosawat/esports-investment-tracker.git"
+  },
+  "keywords": [],
+  "author": "Kosawat Sukchaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kosawat/esports-investment-tracker/issues"
+  },
+  "homepage": "https://github.com/kosawat/esports-investment-tracker#readme"
+}
