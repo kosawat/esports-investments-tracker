@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.h1-text {
+  margin: 5rem;
+}
+
+.row {
+  border: 1px solid black !important;
+}
+.col {
+  border: 1px solid black !important;
+}
