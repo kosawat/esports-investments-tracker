@@ -2,10 +2,10 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="navbar-brand" href="/">
+          Esports Investments Tracker
         </a>
         <button
           className="navbar-toggler"
@@ -16,25 +16,26 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <i className="fa fa-bars" style={{ color: 'white' }}></i>
+          </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Features
+                Contact
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
+          </ul>
+        </div>
+        <div className="collapse navbar-collapse " id="navbarNav">
+          <ul className="navbar-nav ml-auto navbar-ml-auto">
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -44,7 +45,7 @@ function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown link
+                Your Profile
               </a>
               <ul
                 className="dropdown-menu"
@@ -52,17 +53,12 @@ function Navbar() {
               >
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    Register
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
+                    Login
                   </a>
                 </li>
               </ul>

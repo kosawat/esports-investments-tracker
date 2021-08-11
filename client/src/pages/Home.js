@@ -26,30 +26,36 @@ function Home() {
 
   return (
     <div className="container">
-      <h1 className="h1-text">Esports Investments Tracker</h1>
-      <div className="row">
-        <div className="col">Date</div>
-        <div className="col">Sectors</div>
-        <div className="col">Investment Type</div>
-        <div className="col">Investee</div>
-        <div className="col">Investors</div>
-        <div className="col">Amount</div>
-      </div>
+      <h1 className="h1-header">Esports Investments Tracker</h1>
 
-      {!loading
-        ? investments.map((investment, i) => (
-            <div className="row" key={i}>
-              <div className="col">
-                {moment(investment.date).format('DD/MM/YYYY')}
-              </div>
-              <div className="col">{investment.sectors.join(', ')}</div>
-              <div className="col">{investment.investmenttype}</div>
-              <div className="col">{investment.investee}</div>
-              <div className="col">{investment.investors.join(', ')}</div>
-              <div className="col">{investment.amount || 'Undisclosed'}</div>
-            </div>
-          ))
-        : null}
+      <table className="table">
+        <thead>
+          <tr className="table-dark">
+            <th scope="col">Date</th>
+            <th scope="col">Sectors</th>
+            <th scope="col">Investment Type</th>
+            <th scope="col">Investee</th>
+            <th scope="col">Investors</th>
+            <th scope="col">Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          {!loading
+            ? investments.map((investment, i) => (
+                <tr key={i}>
+                  <td>
+                    {moment(investment.date).format('DD/MM/YYYY')}
+                  </td>
+                  <td>{investment.sectors.join(', ')}</td>
+                  <td>{investment.investmenttype}</td>
+                  <td>{investment.investee}</td>
+                  <td>{investment.investors.join(', ')}</td>
+                  <td>{investment.amount || 'Undisclosed'}</td>
+                </tr>
+              ))
+            : null}
+        </tbody>
+      </table>
     </div>
   );
 }
