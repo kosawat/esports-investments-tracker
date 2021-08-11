@@ -1,4 +1,6 @@
 const express = require('express');
+const cors = require('cors');
+const path = require('path');
 const logger = require('morgan');
 
 require('dotenv').config();
@@ -13,6 +15,7 @@ connectDB();
 // Init Middleware
 app.use(express.json({ extended: false }));
 app.use(logger('dev'));
+app.use(cors());
 
 // API
 // Example
