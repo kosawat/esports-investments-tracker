@@ -18,8 +18,6 @@ app.use(logger('dev'));
 app.use(cors());
 
 // API
-// Example
-app.get('/', (req, res) => res.status(200).json({ message: 'API Running' }));
 app.use('/api', require('./routes/investments'));
 
 // Serve static assets in production
