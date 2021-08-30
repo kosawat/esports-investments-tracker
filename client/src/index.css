@@ -12,12 +12,17 @@ code {
     monospace;
 }
 
-.h1-header {
+.title-header {
   margin-top: 5rem;
   margin-bottom: 2rem;
+  font-size: 20px;
 }
 
 .navbar-ml-auto {
   margin-left: auto !important;
+}
+
+.summary-investments-table {
+  font-size: 13px;
 }
 

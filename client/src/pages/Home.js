@@ -26,9 +26,9 @@ function Home() {
 
   return (
     <div className="container">
-      <h1 className="h1-header">Esports Investments Tracker</h1>
+      <h2 className="title-header">Esports Investments Tracker</h2>
 
-      <table className="table">
+      <table className="table summary-investments-table">
         <thead>
           <tr className="table-dark">
             <th scope="col">Date</th>
